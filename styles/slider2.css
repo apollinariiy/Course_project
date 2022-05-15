@@ -1,0 +1,74 @@
+/**
+  * SimpleAdaptiveSlider by Itchief v2.0.0 (https://github.com/itchief/ui-components/tree/master/simple-adaptive-slider)
+  * Copyright 2020 - 2021 Alexander Maltsev
+  * Licensed under MIT (https://github.com/itchief/ui-components/blob/master/LICENSE)
+  */
+
+/* стили для корневого элемента слайдера */
+.slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10px
+}
+
+/* стили для wrapper */
+.slider__wrapper {
+    position: relative;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+/* стили для элемента, в котором непосредственно расположены элементы (слайды) */
+.slider__items {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* класс для отключения transition */
+.transition-none {
+    transition: none;
+}
+
+/* стили для элементов */
+.slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+
+
+/* Индикаторы */
+.slider__indicators {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0 15%;
+    list-style: none;
+    user-select: none;
+}
+
+.slider__indicator {
+    flex: 0 1 auto;
+    width: 30px;
+    height: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    cursor: pointer;
+}
+
+.slider__indicator_active {
+    background-color: #fff;
+}

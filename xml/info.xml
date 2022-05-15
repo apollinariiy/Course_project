@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalog>
+
+<types>
+<type name="Хип-хоп" count="5">
+<concert name="Face" price="75-120"></concert>
+<concert name="GSPD" price="60-110"></concert>
+<concert name="Big baby tape" price="90-130"></concert>
+<concert name="ЛСП" price="60-110"></concert>
+<concert name="Morgenshtern" price="100-150"></concert>
+</type>
+
+<type name="Рок"  count="2">
+<concert name="Кис-кис" price="50-100"></concert>
+<concert name="The Hatters" price="75-130"></concert>
+</type>
+
+<type name="Металл"  count="0">
+</type>
+
+<type name="Поп"  count="4">
+<concert name="T-Fest" price="50-110"></concert>
+<concert name="Алена Швец" price="50-100"></concert>
+<concert name="Егор Крид" price="50-110"></concert>
+<concert name="Little Big" price="90-150"></concert>
+</type>
+
+<type name="Все концерты"  count="11">
+<concert name="Face" price="75-120"></concert>
+<concert name="GSPD" price="60-110"></concert>
+<concert name="Big baby tape" price="90-130"></concert>
+<concert name="ЛСП" price="60-110"></concert>
+<concert name="Morgenshtern" price="100-150"></concert>
+<concert name="Кис-кис" price="50-100"></concert>
+<concert name="The Hatters" price="75-130"></concert>
+<concert name="T-Fest" price="50-110"></concert>
+<concert name="Алена Швец" price="50-100"></concert>
+<concert name="Егор Крид" price="50-110"></concert>
+<concert name="Little Big" price="90-150"></concert>
+</type>
+</types>
+
+</catalog>
