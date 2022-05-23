@@ -42,13 +42,11 @@ header a {
 }
 
 header a.logo {
-
     margin: 0 0 0 0;
 }
 
 header a:hover {
-    color: rgba(249, 164, 63, 1);
-
+    color: rgba(249, 164, 63, 1);  
 }
 
 header a.active {
@@ -223,9 +221,7 @@ div.info{
 }
 
 .footer_info {
-    margin: 50px 50px 70px 150px;
-
-}
+    margin: 50px 100px 70px 150px; }
 
 .svgseti {
     margin: 70px 10px 10px 10px;
@@ -233,7 +229,7 @@ div.info{
 }
 .title1{
     grid-area: post-1;
-}
+}  
 .afisha{
     grid-area: post-2;
     background: url(image/slider1.jpg);
@@ -506,3 +502,13 @@ div.buttom_buy:hover{
         right:10px;
     }
 }
+@media (max-width: 500px) {
+    .footer_info {
+      margin: 50px 100px 70px 40px; }
+      header a {
+        padding: 5px 10px 5px 10px;
+      }
+      .logo_footer{
+        margin: 50px 200px 60px 40px
+      }
+  }

@@ -647,7 +647,8 @@ ul li.time:before {
   opacity: 1; }
 
 .footer_info {
-  margin: 50px 50px 70px 150px; }
+  margin: 50px 100px 70px 150px; }
+  
 
 .svgseti {
   margin: 70px 10px 10px 10px; }
@@ -674,14 +675,17 @@ ul li.time:before {
   font-weight: bold; }
 
 
-
+  @media (max-width: 900px) {
+    .data_next {
+    display: none; }
+  }
 @media (max-width: 720px) {
   .grid {
     display: grid;
     margin-bottom: 100px;
     justify-content: center;
     grid-template-areas: "post-9 post-9" "post-1 post-1" "post-4 post-5" "post-2 post-3" "post-6 post-6" "post-7 post-8" "post-10 post-10" "post-11 post-12" "post-13 post-14" "post-15 post-15" "post-16 post-16" "post-17 post-17" "post-18 post-18";
-    grid-template-rows: 70px 255px 255px 255px 70px 255px 70px 255px 255px 225px 300px 255px 300px;
+    grid-template-rows: 70px 255px 255px 255px 70px 255px 70px 255px 255px 225px 300px 400px 300px;
     grid-template-columns: minmax(100px, 300px) minmax(100px, 300px);
     justify-content: center;
     margin-bottom: 180px; }
@@ -701,8 +705,7 @@ ul li.time:before {
       font-size: 20px;
       border-radius: 4px; }
 
-  .data_next {
-    display: none; }
+  
 
   .next_bottom_big {
     position: absolute;
@@ -735,5 +738,15 @@ ul li.time:before {
     opacity: 1;
     text-align: left;
     margin-right: 10px; } }
+    @media (max-width: 500px) {
+      .footer_info {
+        margin: 50px 100px 70px 40px; }
+        header a {
+          padding: 5px 10px 5px 10px;
+        }
+        .logo_footer{
+          margin: 50px 200px 60px 40px
+        }
+    }
 
 /*# sourceMappingURL=scss.css.map */

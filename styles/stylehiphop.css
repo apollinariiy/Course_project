@@ -298,7 +298,7 @@ ul.breadcrumb li a:hover {
 }
 
 .footer_info {
-    margin: 50px 50px 70px 150px;
+    margin: 50px 100px 70px 150px;
 
 }
 
@@ -350,3 +350,13 @@ ul.breadcrumb li a:hover {
 .footer_katalog li:hover {
     color: rgba(249, 164, 63, 1);
 }
+@media (max-width: 500px) {
+    .footer_info {
+      margin: 50px 100px 70px 40px; }
+      header a {
+        padding: 5px 10px 5px 10px;
+      }
+      .logo_footer{
+        margin: 50px 200px 60px 40px
+      }
+  }
